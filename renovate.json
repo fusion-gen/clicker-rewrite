@@ -5,15 +5,17 @@
 		":pinAllExceptPeerDependencies",
 		"github>christopher-buss/rokit-renovate-config",
 		"helpers:pinGitHubActionDigests",
+		"schedule:automergeEarlyMondays",
 		"security:minimumReleaseAgeNpm"
 	],
 	"automerge": true,
-	"automergeType": "branch",
+	"automergeType": "pr",
 	"baseBranchPatterns": ["develop"],
 	"packageRules": [
 		{
 			"matchPackageNames": ["@rbxts/types"],
 			"minimumReleaseAge": "0 days"
 		}
-	]
+	],
+	"platformAutomerge": true
 }
