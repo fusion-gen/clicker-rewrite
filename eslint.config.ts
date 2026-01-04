@@ -2,7 +2,7 @@ import isentinel from "@isentinel/eslint-config";
 
 export default isentinel({
 	gitignore: true,
-	ignores: ["node_modules", "out", "dist"],
+	ignores: ["dist", "node_modules", "out", "pnpm-lock.yaml", "pnpm-workspace.yaml"],
 	jsdoc: false,
 	jsx: true,
 	languageOptions: {
@@ -17,6 +17,8 @@ export default isentinel({
 		"antfu/consistent-list-newline": "off",
 		"curly": "off",
 		"max-lines-per-function": "off",
+		"perfectionist/sort-keys": "off",
+		"pnpm/yaml-enforce-settings": "off",
 		"roblox/lua-truthiness": "off",
 		"shopify/prefer-module-scope-constants": "off",
 		"style/jsx-sort-props": "off",

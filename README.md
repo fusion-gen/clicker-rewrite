@@ -5,7 +5,6 @@ A rewrite of one of my first projects.
 ## Dependencies
 
 - [git](https://github.com/git-guides/install-git)
-- [npm](https://www.npmjs.com/package/npm)
 - [pnpm](https://www.npmjs.com/package/pnpm)
 - [Rokit](https://github.com/rojo-rbx/rokit)
 
