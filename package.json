@@ -8,7 +8,7 @@
 		"dev:build": "./rbxctl.sh default.project.json -b",
 		"dev:launch": "./rbxctl.sh default.project.json -l",
 		"dev:start": "./rbxctl.sh default.project.json -a",
-		"postinstall": "pnpm self-update && rokit self-update && rokit install && lune setup",
+		"postinstall": "pnpm self-update && pnpm setup && rokit self-update && rokit install && lune setup",
 		"lint": "eslint",
 		"lint:fix": "eslint --fix",
 		"prepare": "husky",
@@ -16,11 +16,7 @@
 		"prod:launch": "./rbxctl.sh production.project.json -l",
 		"prod:start": "./rbxctl.sh production.project.json -s"
 	},
-	"commitlint": {
-		"extends": ["@commitlint/config-conventional"]
-	},
 	"dependencies": {
-		"@flamework/components": "catalog:prod",
 		"@flamework/core": "catalog:prod",
 		"@rbxts/lyra": "catalog:prod",
 		"@rbxts/pretty-react-hooks": "catalog:prod",
@@ -39,7 +35,6 @@
 		"@rbxts/types": "catalog:types",
 		"concurrently": "catalog:script",
 		"eslint": "catalog:lint",
-		"eslint-plugin-jest": "catalog:lint",
 		"eslint-plugin-react": "catalog:lint",
 		"eslint-plugin-react-hooks": "catalog:lint",
 		"eslint-plugin-react-roblox-hooks": "catalog:lint",

@@ -16,7 +16,7 @@ export class DataService implements OnStart {
 		Clicks: 0,
 		Rebirths: 0,
 	};
-	private readonly store = Lyra.createPlayerStore({
+	private readonly lyra = Lyra.createPlayerStore({
 		name: "PlayerData",
 		schema: Flamework.createGuard<ProfileTemplate>(),
 		template: this.profileTemplate,
@@ -26,25 +26,25 @@ export class DataService implements OnStart {
 
 	public onStart(): void {
 		Players.PlayerAdded.Connect((player: Player) => {
-			this.store.loadAsync(player);
-			print(`Loaded profile ${this.store.getAsync(player)} for player ${player.Name}`);
+			this.lyra.loadAsync(player);
+			print(`Loaded profile ${this.lyra.getAsync(player)} for player ${player.Name}`);
 		});
 		Players.PlayerRemoving.Connect((player: Player) => {
-			this.store.unloadAsync(player);
-			print(`Unloaded profile ${this.store.getAsync(player)} for player ${player.Name}`);
+			this.lyra.unloadAsync(player);
+			print(`Unloaded profile ${this.lyra.getAsync(player)} for player ${player.Name}`);
 		});
 		for (const player of Players.GetPlayers()) {
-			this.store.loadAsync(player);
+			this.lyra.loadAsync(player);
 		}
 
 		game.BindToClose(() => {
-			this.store.closeAsync();
+			this.lyra.closeAsync();
 		});
 	}
 
 	public UpdatePlayerData(player: Player, stat: keyof ProfileTemplate, value: number): string {
 		try {
-			this.store.updateAsync(player, (data) => {
+			this.lyra.updateAsync(player, (data) => {
 				data[stat] = value;
 				return true;
 			});
