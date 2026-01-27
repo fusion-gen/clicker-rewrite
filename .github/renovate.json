@@ -7,5 +7,6 @@
 		"helpers:pinGitHubActionDigests",
 		"security:minimumReleaseAgeNpm"
 	],
-	"automerge": true
+	"automerge": true,
+	"automergeType": "branch"
 }

@@ -5,8 +5,8 @@ export function Storybook(
 	groupRoots = true,
 ): { groupRoots: boolean; name: string; storyRoots: Array<Instance> | undefined } {
 	return {
-		name,
 		groupRoots,
+		name,
 		storyRoots: storyRoots ?? caller.Parent?.GetChildren() ?? [],
 	};
 }
