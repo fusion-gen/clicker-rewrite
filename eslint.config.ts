@@ -17,7 +17,7 @@ export default isentinel({
 		"antfu/consistent-list-newline": "off",
 		"curly": "off",
 		"max-lines-per-function": "off",
-		"perfectionist/sort-keys": "off",
+		"perfectionist/sort-objects": "off",
 		"pnpm/yaml-enforce-settings": "off",
 		"roblox/lua-truthiness": "off",
 		"shopify/prefer-module-scope-constants": "off",
