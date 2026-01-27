@@ -8,5 +8,6 @@
 		"security:minimumReleaseAgeNpm"
 	],
 	"automerge": true,
-	"automergeType": "branch"
+	"automergeType": "branch",
+	"dependencyDashboardApproval": false
 }
