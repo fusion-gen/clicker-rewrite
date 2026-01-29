@@ -7,6 +7,7 @@
 		"npm:unpublishSafe"
 	],
 	"automerge": true,
+	"schedule": ["* 9 * * 1"],
 	"packageRules": [
 		{
 			"matchUpdateTypes": ["patch"],
