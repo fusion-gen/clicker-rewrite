@@ -3,8 +3,9 @@
 	"extends": [
 		"config:recommended",
 		":pinAllExceptPeerDependencies",
+		"github>christopher-buss/rokit-renovate-config",
 		"helpers:pinGitHubActionDigests",
-		"npm:unpublishSafe"
+		"security:minimumReleaseAgeNpm"
 	],
 	"automerge": true,
 	"schedule": ["* 9 * * 1"],

@@ -8,7 +8,7 @@
 		"dev:build": "./rbxctl.sh default.project.json -b",
 		"dev:launch": "./rbxctl.sh default.project.json -l",
 		"dev:start": "./rbxctl.sh default.project.json -a",
-		"postinstall": "pnpm self-update && pnpm setup && mise upgrade && mise install && lune setup",
+		"postinstall": "pnpm self-update && pnpm setup && rokit self-update && rokit install && lune setup",
 		"lint": "eslint",
 		"lint:fix": "eslint --fix",
 		"prepare": "husky",

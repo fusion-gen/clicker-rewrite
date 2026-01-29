@@ -1,7 +1,0 @@
-[tools]
-"github:1Axen/blink" = "0.18.6"
-"github:Kampfkarren/selene" = "0.30.0"
-"github:johnnymorganz/stylua" = "2.3.1"
-"github:lune-org/lune" = "0.10.4"
-"github:rojo-rbx/rojo" = "7.6.1"
-"github:seaofvoices/darklua" = "0.17.3"
