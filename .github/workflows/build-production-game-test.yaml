@@ -10,10 +10,9 @@ jobs:
           fetch-depth: 0
           token: ${{ secrets.PAT }}
 
-      - name: install mise
-        run: |
-          curl https://mise.run | sh
-          mise install
+      - uses: jdx/mise-action@f03edced6dc7ba6a2afe0ceaf72fb12fa13cb1ec # v3
+        with:
+          install: true
 
       - uses: pnpm/action-setup@41ff72655975bd51cab0327fa583b6e92b6d3061 # v4
         with:
