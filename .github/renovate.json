@@ -3,10 +3,19 @@
 	"extends": [
 		"config:recommended",
 		":pinAllExceptPeerDependencies",
-		"github>christopher-buss/rokit-renovate-config",
 		"helpers:pinGitHubActionDigests",
-		"security:minimumReleaseAgeNpm"
+		"npm:unpublishSafe"
 	],
 	"automerge": true,
-	"automergeType": "pr"
+	"packageRules": [
+		{
+			"matchUpdateTypes": ["patch"],
+			"groupName": "Patches",
+			"groupSlug": "patch"
+		},
+		{
+			"matchPackageNames": ["@rbxts/types"],
+			"minimumReleaseAge": "0 days"
+		}
+	]
 }
