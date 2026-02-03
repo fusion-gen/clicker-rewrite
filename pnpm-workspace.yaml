@@ -8,7 +8,7 @@ catalogs:
     roblox-ts: 3.0.0
   lint:
     '@eslint/config-inspector': 1.4.2
-    '@isentinel/eslint-config': 4.7.7
+    '@isentinel/eslint-config': 4.7.8
     eslint: 9.39.2
     eslint-plugin-react: 7.37.5
     eslint-plugin-react-hooks: 7.0.1
