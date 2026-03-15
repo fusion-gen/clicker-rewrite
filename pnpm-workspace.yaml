@@ -23,8 +23,8 @@ catalogs:
     '@rbxts/ui-labs': 2.4.2
     '@rbxts/ui-scaler': 0.2.6
   script:
-    '@commitlint/cli': 20.4.3
-    '@commitlint/config-conventional': 20.4.3
+    '@commitlint/cli': 20.4.4
+    '@commitlint/config-conventional': 20.4.4
     concurrently: 9.2.1
     husky: 9.1.7
     jiti: 2.6.1
