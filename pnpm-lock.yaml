@@ -32,8 +32,8 @@ catalogs:
       specifier: 7.37.5
       version: 7.37.5
     eslint-plugin-react-hooks:
-      specifier: 7.0.1
-      version: 7.0.1
+      specifier: 7.1.1
+      version: 7.1.1
     eslint-plugin-react-roblox-hooks:
       specifier: 5.1.0-rbx.1
       version: 5.1.0-rbx.1
@@ -132,7 +132,7 @@ importers:
         version: 2.0.0(eslint@9.39.4(jiti@2.6.1))
       '@isentinel/eslint-config':
         specifier: catalog:lint
-        version: 4.9.0(@types/estree@1.0.8)(@typescript-eslint/utils@8.58.1(eslint@9.39.4(jiti@2.6.1))(typescript@6.0.3))(eslint-plugin-n@17.23.1(eslint@9.39.4(jiti@2.6.1))(typescript@6.0.3))(eslint-plugin-react-hooks@7.0.1(eslint@9.39.4(jiti@2.6.1)))(eslint-plugin-react-naming-convention@2.3.7(eslint@9.39.4(jiti@2.6.1))(typescript@6.0.3))(eslint-plugin-react-x@2.13.0(eslint@9.39.4(jiti@2.6.1))(typescript@6.0.3))(eslint@9.39.4(jiti@2.6.1))(typescript@6.0.3)
+        version: 4.9.0(@types/estree@1.0.8)(@typescript-eslint/utils@8.58.1(eslint@9.39.4(jiti@2.6.1))(typescript@6.0.3))(eslint-plugin-n@17.23.1(eslint@9.39.4(jiti@2.6.1))(typescript@6.0.3))(eslint-plugin-react-hooks@7.1.1(eslint@9.39.4(jiti@2.6.1)))(eslint-plugin-react-naming-convention@2.3.7(eslint@9.39.4(jiti@2.6.1))(typescript@6.0.3))(eslint-plugin-react-x@2.13.0(eslint@9.39.4(jiti@2.6.1))(typescript@6.0.3))(eslint@9.39.4(jiti@2.6.1))(typescript@6.0.3)
       '@isentinel/tsconfig':
         specifier: catalog:types
         version: 1.2.0(typescript@6.0.3)
@@ -153,7 +153,7 @@ importers:
         version: 7.37.5(eslint@9.39.4(jiti@2.6.1))
       eslint-plugin-react-hooks:
         specifier: catalog:lint
-        version: 7.0.1(eslint@9.39.4(jiti@2.6.1))
+        version: 7.1.1(eslint@9.39.4(jiti@2.6.1))
       eslint-plugin-react-roblox-hooks:
         specifier: catalog:lint
         version: 5.1.0-rbx.1(eslint@9.39.4(jiti@2.6.1))
@@ -2577,11 +2577,11 @@ packages:
     peerDependencies:
       eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0 || ^9.0.0
 
-  eslint-plugin-react-hooks@7.0.1:
-    resolution: {integrity: sha512-O0d0m04evaNzEPoSW+59Mezf8Qt0InfgGIBJnpC0h3NH/WjUAR7BIKUfysC6todmtiZ/A0oUVS8Gce0WhBrHsA==}
+  eslint-plugin-react-hooks@7.1.1:
+    resolution: {integrity: sha512-f2I7Gw6JbvCexzIInuSbZpfdQ44D7iqdWX01FKLvrPgqxoE7oMj8clOfto8U6vYiz4yd5oKu39rRSVOe1zRu0g==}
     engines: {node: '>=18'}
     peerDependencies:
-      eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0 || ^9.0.0
+      eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0 || ^9.0.0 || ^10.0.0
 
   eslint-plugin-react-naming-convention@2.3.7:
     resolution: {integrity: sha512-pW0l0kY8Wf42g3R/D8DVVibRc7BvU49VFshKCYQ4DLA53FPJsdOd9b28aKyyvgDAh65HDFEJKLvp03C+OkY7Fg==}
@@ -5093,7 +5093,7 @@ snapshots:
 
   '@isentinel/dict-roblox@1.0.3': {}
 
-  '@isentinel/eslint-config@4.9.0(@types/estree@1.0.8)(@typescript-eslint/utils@8.58.1(eslint@9.39.4(jiti@2.6.1))(typescript@6.0.3))(eslint-plugin-n@17.23.1(eslint@9.39.4(jiti@2.6.1))(typescript@6.0.3))(eslint-plugin-react-hooks@7.0.1(eslint@9.39.4(jiti@2.6.1)))(eslint-plugin-react-naming-convention@2.3.7(eslint@9.39.4(jiti@2.6.1))(typescript@6.0.3))(eslint-plugin-react-x@2.13.0(eslint@9.39.4(jiti@2.6.1))(typescript@6.0.3))(eslint@9.39.4(jiti@2.6.1))(typescript@6.0.3)':
+  '@isentinel/eslint-config@4.9.0(@types/estree@1.0.8)(@typescript-eslint/utils@8.58.1(eslint@9.39.4(jiti@2.6.1))(typescript@6.0.3))(eslint-plugin-n@17.23.1(eslint@9.39.4(jiti@2.6.1))(typescript@6.0.3))(eslint-plugin-react-hooks@7.1.1(eslint@9.39.4(jiti@2.6.1)))(eslint-plugin-react-naming-convention@2.3.7(eslint@9.39.4(jiti@2.6.1))(typescript@6.0.3))(eslint-plugin-react-x@2.13.0(eslint@9.39.4(jiti@2.6.1))(typescript@6.0.3))(eslint@9.39.4(jiti@2.6.1))(typescript@6.0.3)':
     dependencies:
       '@antfu/install-pkg': 1.1.0
       '@clack/prompts': 0.11.0
@@ -5148,7 +5148,7 @@ snapshots:
       yargs: 18.0.0
     optionalDependencies:
       eslint-plugin-n: 17.23.1(eslint@9.39.4(jiti@2.6.1))(typescript@6.0.3)
-      eslint-plugin-react-hooks: 7.0.1(eslint@9.39.4(jiti@2.6.1))
+      eslint-plugin-react-hooks: 7.1.1(eslint@9.39.4(jiti@2.6.1))
       eslint-plugin-react-x: 2.13.0(eslint@9.39.4(jiti@2.6.1))(typescript@6.0.3)
     transitivePeerDependencies:
       - '@eslint/json'
@@ -7008,7 +7008,7 @@ snapshots:
     dependencies:
       eslint: 9.39.4(jiti@2.6.1)
 
-  eslint-plugin-react-hooks@7.0.1(eslint@9.39.4(jiti@2.6.1)):
+  eslint-plugin-react-hooks@7.1.1(eslint@9.39.4(jiti@2.6.1)):
     dependencies:
       '@babel/core': 7.28.5
       '@babel/parser': 7.28.5
