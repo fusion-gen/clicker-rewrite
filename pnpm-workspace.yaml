@@ -32,7 +32,7 @@ catalogs:
   types:
     '@isentinel/tsconfig': 1.2.0
     '@rbxts/compiler-types': 3.0.0-types.0
-    '@rbxts/types': 1.0.916
+    '@rbxts/types': 1.0.917
     typescript: 6.0.3
 
 cleanupUnusedCatalogs: true

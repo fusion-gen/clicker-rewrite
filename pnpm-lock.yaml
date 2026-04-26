@@ -89,8 +89,8 @@ catalogs:
       specifier: 3.0.0-types.0
       version: 3.0.0-types.0
     '@rbxts/types':
-      specifier: 1.0.916
-      version: 1.0.916
+      specifier: 1.0.917
+      version: 1.0.917
     typescript:
       specifier: 6.0.3
       version: 6.0.3
@@ -141,7 +141,7 @@ importers:
         version: 3.0.0-types.0
       '@rbxts/types':
         specifier: catalog:types
-        version: 1.0.916
+        version: 1.0.917
       concurrently:
         specifier: catalog:script
         version: 9.2.1
@@ -1147,8 +1147,8 @@ packages:
   '@rbxts/t@3.2.1':
     resolution: {integrity: sha512-/fnf2QSx+TI3HSJ6QW2ikvGQk0mlx/63UXo60pLAKGqbxXiAuTJh88bpKpHw6aCzfFLJAwrVIcgCUOokLMPcag==}
 
-  '@rbxts/types@1.0.916':
-    resolution: {integrity: sha512-Bwy7hkbho4xtDR6ANjrdJWPTNF3bPoJnIfQYjQQv9Lt+xFid5bD1ZYs3Ij1xSfykgI3D8KS0yzWKdNhycZkHCQ==}
+  '@rbxts/types@1.0.917':
+    resolution: {integrity: sha512-QYOs4nGS2cu2phXu5su9kGF/HCImt88J6M10UQ5AW0RE+oginDYhPHTqAKiNPFu2HZz0rSjvyezn5Ek3wCcdcQ==}
 
   '@rbxts/ui-labs@2.4.2':
     resolution: {integrity: sha512-9cyzDYN4mM7KSupZpbHRCUWCfSHzy8LCqa9Czys2jaKYUCn8oV4j5AE+5jTrHD/8RcltP5EvCSFIFwB0N/NfxA==}
@@ -5320,7 +5320,7 @@ snapshots:
 
   '@rbxts/t@3.2.1': {}
 
-  '@rbxts/types@1.0.916': {}
+  '@rbxts/types@1.0.917': {}
 
   '@rbxts/ui-labs@2.4.2': {}
 
